@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.animasi {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.animasi-kanan {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 2s; 
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    border-bottom: 2px solid #fc5422;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1.7rem;
+    padding-left: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logo span {
+    color: #f2501f;
+    font-style: italic;
+    font-size: 2.1rem;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hero-extra {
+    margin-left: 19rem;
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.5);
+}
+.hero-p {
+    font-size: 1.4rem;
+    margin-left: 7rem;
+    text-align: left;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.hero1 img {
+    margin-left: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* comment */
+.comment {
+    border: #000000 solid 3px;
+    border-radius: 40px;
+    width:45rem;
+    height: 8rem;
+    margin-left: 25rem;
+    margin-top: 1.7rem;
+    background-color: #F5F5F5;
+}
+
+.comsi {
+    text-align: center;
+    padding-top: 1rem;
+    color: #000000;
+    text-shadow: 1px 1px 5px ,rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.comsi1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+/* Border 1 */
+.kotak .border1 {
+    border:#f2501f solid 3px ;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 23rem;
+    height: 22rem;
+    margin-left:4.7rem; 
+}
+
+.kotak .border1 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    font-size: 1.3rem;
+}
+
+.kotak .judul1 {
+    text-align: center;
+}
+
+.kotak .border1:hover {
+    color: #fff;
+    background-color: #f2501f;
+    transition: 0.3s;
+    transform: translateY(-25px);
+    box-shadow: 0px 0px 25px #f2501f;
+}
+
+.kotak .border1 .judul1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.kotak .border1:hover .isi {
+    color: #fff;
+    transform: translateY(-60px);
+    transition: 0.5s;
+}
+
+/* border 2 */
+
+.kotak {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.kotak .border2 {
+    border:#f2501f solid 3px ;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 23rem;
+    height: 22rem;
+    margin-left: 9rem; 
+    text-align: center;
+}
+
+.kotak .border2 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.kotak .border2 .judul2 {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.kotak .border2:hover {
+    color: #fff;
+    background-color: #f2501f;
+    transition: 0.5s;
+    transform: translateY(-25px);
+    box-shadow: 0px 0px 25px #f2501f;
+}
+
+.kotak .border2:hover .isi2 {
+    transform: translateY(-60px);
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+/* Border3 */
+.kotak .border3 {
+    border:#f2501f solid 3px ;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 23rem;
+    height: 22rem;
+    margin-left: 8rem; 
+    text-align: center;
+}
+
+.kotak .border3 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.kotak .border3 .judul3 {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.kotak .border3:hover {
+    color: #fff;
+    background-color: #f2501f;
+    transition: 0.5s;
+    transform: translateY(-25px);
+    box-shadow: 0px 0px 25px #f2501f;
+}
+
+.kotak .border3:hover .isi3 {
+    transform: translateY(-60px);
+    transition: 0.5s;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    margin-top: 5rem;
+    background-image: url("ganan2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50rem;
+    min-height: 100vh;
+}
+
+.footer .siter h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}   
+
+/* card hover */
+.card {
+    width: 380px;
+    height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 7rem 7rem;
+    border: 3.5px solid black;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;x   
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -200% ;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.card-btn {
+    color: #000000;
+    background:#F5F5F5;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 140px;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+/* card2 hover */
+.kedua {
+    display: flex;
+}
+
+.card1 {
+    width: 380px;
+    height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 7rem 7rem;
+    border: 3.5px solid black;
+    position: relative;
+    margin-left: 30rem;
+}
+
+.card-img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.card-title1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card-subtitle1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+    font-weight: 600    ;
+}
+
+.card-btn1 {
+    color: #000000;
+    background:#F5F5F5;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 140px;
+}
+
+.card1:hover .card-body1{
+    left: 0 ;
+}
+
+
+/* media quires */
+@media (max-width: 500px) {
+
+/* navbar */
+.navbar {
+    display: flex;
+    width: 595px;
+}
+
+.navbar-extra h1  {
+    font-size: 30px;
+}
+
+.navbar-extra span {
+    font-size: 30px;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero1 img {
+    width: 400px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.hero-awal {
+    font-size: 1rem;
+}
+
+.hero-awal h1 {
+    margin-left: 1.5rem;
+    font-size: 40px;
+}
+
+.hero-awal p {
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size: 20px;
+}
+
+/* comment */
+.comment {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    width: 34rem;
+    height: 8rem;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.comsi {
+    padding-bottom: 2.5rem;
+    font-size: 25px;
+}
+
+.comsi1 {
+    padding-top: 2.5rem;
+}
+
+/* border */
+.kotak {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+}
+
+.kotak .border1 {
+    margin-left: 7rem;  
+}
+
+
+.kotak .border2 {
+    margin-left: 7rem;
+}
+
+.kotak .border3 {
+    margin-left: 7rem;
+}
+
+/* footer */
+.footer {
+    font-size: 0.7rem;
+    background-size: 40rem;
+    background-position:left;
+    background-attachment: fixed;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+.footer .siter h1 {
+    width: 570px;
+}
+
+/* isi footer */
+.kedua {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.card {
+    margin-left: 7.5 rem;
+}
+
+.card1 {
+    margin-left: 7.5rem;
+    margin-top: 5rem;
+    width: 370px;
+}
+}
+
+/* Media Quires Phone yg lbh kecil */
+@media (max-width: 400px) {
+.kotak  {
+    width: 40rem;
+}
+
+.navbar {
+    width: 680px;
+}
+
+.footer .siter h1 {
+    width: 690px;
+}
+
+.footer {
+    background-size: 40rem;
+    background-position:left;
+    z-index: -1;
+    position: absolute;
+}
+}
